@@ -1,0 +1,214 @@
+#contenedor{
+    width: 1024px;
+    height: 800px;
+    border: 10px;
+    border-radius: 50px;
+    border-color: black;
+    padding: 25px 25px;
+
+}
+
+#header{
+    background-image:url(https://www.escueladementoring.com/wp-content/uploads/2020/07/preguntas-626x321.jpeg);
+    box-shadow: 20px blue;
+    width: 1000px;
+    height: 600px;
+    border: 5px solid;
+    border-radius: 50px;
+    border-color: black;
+    margin: 12px 12px;
+    box-shadow: 15px 15px cornflowerblue;
+}
+
+#trivia{
+    color:black;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 30px lightgoldenrodyellow;
+    border-bottom-right-radius: 5px;
+    margin-left: 350px;
+    margin-top: 100px;
+
+}
+
+#nombre2{
+    background-color: chartreuse;
+    width:max-content;
+    height: max-content;
+    border-radius: 5px;
+    font-size:40px;
+    font-family: cursive;
+    margin-top: 40px;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 70px;
+    font-style: italic;
+    padding:0px 10px;
+}
+
+#jugar{
+    font-size: 30px;
+    background-color:cornflowerblue;
+    color:whitesmoke;
+    font-family:sans-serif;
+    margin-left: 435px;
+    margin-top: 10px;
+    padding: 15px;
+    border-bottom: blue;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#jugar:hover{
+    background-color:darkslateblue;
+    color:white;
+    border-bottom: blue;
+    border-radius: 5px;
+}
+
+    
+#section{
+    background-image:url(https://www.escueladementoring.com/wp-content/uploads/2020/07/preguntas-626x321.jpeg);
+    width: 1000px;
+    height: 600px;
+    border: 5px solid;
+    border-radius: 50px;
+    border-color:black;
+    margin: 12px 12px;
+    box-shadow: 15px 15px rgb(4, 180, 180);
+}
+
+#nombre{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 330px;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 400px;
+}
+#pregunta{
+    background-color:yellowgreen;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 450px;
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+}
+
+#opcion1{
+    background-color:yellowgreen;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 450px;
+    width: max-content;
+    height: max-content;
+    padding: 8px;
+    margin:20px 190px;
+    display: inline;
+
+}
+#opcion2{
+    background-color:yellowgreen;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 450px;
+    width: max-content;
+    height: max-content;
+    padding: 8px;
+    margin:20px 190px;
+    display: inline-block;
+}
+
+#opcion3{
+    background-color:yellowgreen;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 450px;
+    width: max-content;
+    height: max-content;
+    padding: 8px;
+    margin:20px 190px;
+    display:inline;
+
+}
+
+#opcion4{
+    background-color:yellowgreen;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 450px;
+    padding: 8px;
+    margin:20px 190px;
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+
+}
+
+
+#footer{
+    background-image:url(https://www.escueladementoring.com/wp-content/uploads/2020/07/preguntas-626x321.jpeg);
+    width: 1000px;
+    height: 600px;
+    border: 5px solid;
+    border-radius: 50px;
+    border-color: black;
+    margin: 12px 12px;
+    box-shadow: 15px 15px rgb(5, 135, 139);
+}
+
+#ranking{
+    color:black;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: max-content;
+    height: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+
+}
+
+#nombre3{
+    background-color:yellowgreen;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+    margin:20px 90px;
+    display: inline-block; 
+    width: max-content;
+    height: max-content;
+}
+
+#posicion{
+    background-color:yellowgreen;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+    margin:20px 90px;
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+}
+
+#puntos{
+    background-color:yellowgreen;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+    margin:20px 90px;
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+}
