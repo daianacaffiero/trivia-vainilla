@@ -1,7 +1,7 @@
 body {
-  margin: auto 20%;
+  margin: auto 20rem;
 }
-.contenedor {
+#contenedor {
   width: 1024px;
   height: 800px;
   border: 5px solid;
@@ -14,7 +14,7 @@ body {
   margin: 12px 12px;
 }
 
-#trivia {
+.trivia {
   color: black;
   font-size: 50px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -24,7 +24,7 @@ body {
   margin-top: 100px;
 }
 
-#nombre2 {
+.nombre2 {
   background-color: chartreuse;
   width: max-content;
   height: max-content;
@@ -39,7 +39,7 @@ body {
   padding: 0px 10px;
 }
 
-#jugar {
+.jugar {
   font-size: 30px;
   background-color: cornflowerblue;
   color: whitesmoke;
@@ -52,14 +52,14 @@ body {
   text-decoration: none;
 }
 
-#jugar:hover {
+.jugar:hover {
   background-color: darkslateblue;
   color: white;
   border-bottom: blue;
   border-radius: 5px;
 }
 
-#section {
+.section {
   background-image: url(https://www.escueladementoring.com/wp-content/uploads/2020/07/preguntas-626x321.jpeg);
   width: 1000px;
   height: 600px;
@@ -70,7 +70,7 @@ body {
   box-shadow: 15px 15px rgb(4, 180, 180);
 }
 
-#nombre {
+.nombre {
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 330px;
@@ -81,7 +81,7 @@ img {
   height: 200px;
   margin: 20px 400px;
 }
-#pregunta {
+.pregunta {
   background-color: yellowgreen;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -91,7 +91,7 @@ img {
   padding: 8px;
 }
 
-#opcion1 {
+.opcion1 {
   background-color: yellowgreen;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -102,7 +102,7 @@ img {
   margin: 20px 190px;
   display: inline;
 }
-#opcion2 {
+.opcion2 {
   background-color: yellowgreen;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -114,7 +114,7 @@ img {
   display: inline-block;
 }
 
-#opcion3 {
+.opcion3 {
   background-color: yellowgreen;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -126,7 +126,7 @@ img {
   display: inline;
 }
 
-#opcion4 {
+.opcion4 {
   background-color: yellowgreen;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -138,7 +138,7 @@ img {
   height: max-content;
 }
 
-#footer {
+.footer {
   background-image: url(https://www.escueladementoring.com/wp-content/uploads/2020/07/preguntas-626x321.jpeg);
   width: 1000px;
   height: 600px;
@@ -149,7 +149,7 @@ img {
   box-shadow: 15px 15px rgb(5, 135, 139);
 }
 
-#ranking {
+.ranking {
   color: black;
   font-size: 50px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -160,7 +160,7 @@ img {
   margin-top: 100px;
 }
 
-#nombre3 {
+.nombre3 {
   background-color: yellowgreen;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -173,7 +173,7 @@ img {
   height: max-content;
 }
 
-#posicion {
+.posicion {
   background-color: yellowgreen;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -186,7 +186,7 @@ img {
   height: max-content;
 }
 
-#puntos {
+.puntos {
   background-color: yellowgreen;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
