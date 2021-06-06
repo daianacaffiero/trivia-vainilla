@@ -18,6 +18,7 @@ body {
   color: black;
   font-size: 50px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 3px 3px 4px rgba(255, 255, 254, 0.829);
   border-bottom: 30px lightgoldenrodyellow;
   border-bottom-right-radius: 5px;
   margin-left: 350px;
@@ -31,10 +32,7 @@ body {
   border-radius: 5px;
   font-size: 40px;
   font-family: cursive;
-  margin-top: 40px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 70px;
+  margin: 15% 20%;
   font-style: italic;
   padding: 0px 10px;
 }
@@ -152,7 +150,8 @@ img {
 .ranking {
   color: black;
   font-size: 50px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 3px 3px 4px rgba(255, 255, 254, 0.829);
   width: max-content;
   height: max-content;
   margin-right: auto;
@@ -160,41 +159,17 @@ img {
   margin-top: 100px;
 }
 
-.nombre3 {
+table{
+  border-collapse: collapse;
+  width: 80%;
+  height: 50%;
+  display:inline-flexbox;
   background-color: yellowgreen;
-  color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: 100px;
-  height: 30px;
-  padding: 8px;
-  margin: 20px 90px;
-  display: inline-block;
-  width: max-content;
-  height: max-content;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 90px;
 }
 
-.posicion {
-  background-color: yellowgreen;
-  color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: 100px;
-  height: 30px;
-  padding: 8px;
-  margin: 20px 90px;
-  display: inline-block;
-  width: max-content;
-  height: max-content;
-}
-
-.puntos {
-  background-color: yellowgreen;
-  color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: 100px;
-  height: 30px;
-  padding: 8px;
-  margin: 20px 90px;
-  display: inline-block;
-  width: max-content;
-  height: max-content;
+table,th,td{
+  border: 2px solid black;
+  padding: 3px;
 }
