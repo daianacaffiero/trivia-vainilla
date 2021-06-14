@@ -92,40 +92,9 @@ img {
   background-color: yellowgreen;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.arribaizq {
-  margin-left: 450px;
-  width: max-content;
-  height: max-content;
-  padding: 8px;
   margin: 20px 190px;
-  display: inline;
-}
-.arribader {
-  margin-left: 450px;
-  width: max-content;
-  height: max-content;
   padding: 8px;
-  margin: 20px 190px;
   display: inline-block;
-}
-
-.abajoizq {
-  margin-left: 450px;
-  width: max-content;
-  height: max-content;
-  padding: 8px;
-  margin: 20px 190px;
-  display: inline;
-}
-
-.abajoder {
-  margin-left: 450px;
-  padding: 8px;
-  margin: 20px 190px;
-  display: inline-block;
-  width: max-content;
-  height: max-content;
 }
 
 .footer {
