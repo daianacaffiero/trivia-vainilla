@@ -88,11 +88,12 @@ img {
   height: 30px;
   padding: 8px;
 }
-
-.opcion1 {
+.opcion {
   background-color: yellowgreen;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.arribaizq {
   margin-left: 450px;
   width: max-content;
   height: max-content;
@@ -100,10 +101,7 @@ img {
   margin: 20px 190px;
   display: inline;
 }
-.opcion2 {
-  background-color: yellowgreen;
-  color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.arribader {
   margin-left: 450px;
   width: max-content;
   height: max-content;
@@ -112,10 +110,7 @@ img {
   display: inline-block;
 }
 
-.opcion3 {
-  background-color: yellowgreen;
-  color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.abajoizq {
   margin-left: 450px;
   width: max-content;
   height: max-content;
@@ -124,10 +119,7 @@ img {
   display: inline;
 }
 
-.opcion4 {
-  background-color: yellowgreen;
-  color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.abajoder {
   margin-left: 450px;
   padding: 8px;
   margin: 20px 190px;
