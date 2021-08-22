@@ -1,13 +1,13 @@
 body {
   margin: auto 20rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-#contenedor {
-  width: 1024px;
-  height: 800px;
+.contenedor {
+  width: 1000px;
+  height: 600px;
   border: 5px solid;
   border-radius: 50px;
   border-color: black;
-  padding: 25px 25px;
   background-image: url(../img/background.jpeg);
   box-shadow: 20px blue;
   box-shadow: 15px 15px cornflowerblue;
@@ -17,7 +17,6 @@ body {
 .trivia {
   color: black;
   font-size: 50px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 3px 3px 4px rgba(255, 255, 254, 0.829);
   border-bottom: 30px lightgoldenrodyellow;
   border-bottom-right-radius: 5px;
@@ -57,20 +56,8 @@ body {
   border-radius: 5px;
 }
 
-.section {
-  background-image: url(../img/background.jpeg);
-  width: 1000px;
-  height: 600px;
-  border: 5px solid;
-  border-radius: 50px;
-  border-color: black;
-  margin: 12px 12px;
-  box-shadow: 15px 15px rgb(4, 180, 180);
-}
-
 .nombre {
   color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 330px;
 }
 
@@ -82,7 +69,6 @@ img {
 .pregunta {
   background-color: yellowgreen;
   color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 450px;
   width: 100px;
   height: 30px;
@@ -91,27 +77,14 @@ img {
 .opcion {
   background-color: yellowgreen;
   color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 20px 190px;
   padding: 8px;
   display: inline-block;
 }
 
-.footer {
-  background-image: url(../img/background.jpeg);
-  width: 1000px;
-  height: 600px;
-  border: 5px solid;
-  border-radius: 50px;
-  border-color: black;
-  margin: 12px 12px;
-  box-shadow: 15px 15px rgb(5, 135, 139);
-}
-
 .ranking {
   color: black;
   font-size: 50px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 3px 3px 4px rgba(255, 255, 254, 0.829);
   width: max-content;
   height: max-content;
@@ -126,7 +99,6 @@ table{
   height: 50%;
   display:inline-flexbox;
   background-color: yellowgreen;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 90px;
 }
 
