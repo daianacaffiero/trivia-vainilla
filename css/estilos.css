@@ -8,7 +8,7 @@ body {
   border-radius: 50px;
   border-color: black;
   padding: 25px 25px;
-  background-image: url(https://www.escueladementoring.com/wp-content/uploads/2020/07/preguntas-626x321.jpeg);
+  background-image: url(../img/background.jpeg);
   box-shadow: 20px blue;
   box-shadow: 15px 15px cornflowerblue;
   margin: 12px 12px;
@@ -58,7 +58,7 @@ body {
 }
 
 .section {
-  background-image: url(https://www.escueladementoring.com/wp-content/uploads/2020/07/preguntas-626x321.jpeg);
+  background-image: url(../img/background.jpeg);
   width: 1000px;
   height: 600px;
   border: 5px solid;
@@ -98,7 +98,7 @@ img {
 }
 
 .footer {
-  background-image: url(https://www.escueladementoring.com/wp-content/uploads/2020/07/preguntas-626x321.jpeg);
+  background-image: url(../img/background.jpeg);
   width: 1000px;
   height: 600px;
   border: 5px solid;
