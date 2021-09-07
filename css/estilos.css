@@ -1,17 +1,72 @@
+:root {
+  --green: #06C972;
+  --gray: #F4F9FC;
+  --blue: #0A1C2F;
+  --yellow: #FEE27F;
+  --white: #FFFFFF;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: auto 20rem;
+  margin:0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--blue);
+}
+header {
+  width: 100%;
+  background-color: var(--green);
+  font-size: 2rem;
+}
+h1 {
+  font-size: 3rem;
+}
+.center {
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container-center{
+  justify-content: center;
+}
+.flex-container-col{
+  flex-direction: column;
+}
+.flex-item {
+  margin: 1%;
+  padding: 1%;
 }
 .contenedor {
-  width: 1000px;
-  height: 600px;
-  border: 5px solid;
+  width: 100%;
+  min-height: 50%;
+}
+.question {
+  width: 150vh;
+  border: 5px solid var(--green);
   border-radius: 50px;
-  border-color: black;
-  background-image: url(../img/background.jpeg);
-  box-shadow: 20px blue;
-  box-shadow: 15px 15px cornflowerblue;
-  margin: 12px 12px;
+  background-color: var(--blue);
+  margin: 2%;
 }
 
 .trivia {
@@ -23,63 +78,57 @@ body {
   margin-left: 350px;
   margin-top: 100px;
 }
-
-.nombre2 {
-  background-color: chartreuse;
-  width: max-content;
-  height: max-content;
+.jugador-form {
+  background-color: var(--yellow);
+  height: 100vh;
+}
+.input-nombre {
+  max-width: 300px;
+  height: 20%;
+  color: var(--blue);
+  background-color: var(--gray);
+  border: 1px solid var(--blue);
   border-radius: 5px;
-  font-size: 40px;
+  font-size: 2rem;
   font-family: cursive;
-  margin: 15% 20%;
   font-style: italic;
   padding: 0px 10px;
 }
-
-.jugar {
-  font-size: 30px;
-  background-color: cornflowerblue;
-  color: whitesmoke;
-  font-family: sans-serif;
-  margin-left: 435px;
-  margin-top: 10px;
+label {
+  font-size: 1.2rem;
+}
+.btn-jugar {
+  font-size: 2rem;
+  background-color: var(--green);
+  color: var(--blue);
   padding: 15px;
-  border-bottom: blue;
+  border: 1px solid var(--blue);
   border-radius: 5px;
-  text-decoration: none;
+  cursor: pointer;
 }
 
-.jugar:hover {
-  background-color: darkslateblue;
-  color: white;
-  border-bottom: blue;
-  border-radius: 5px;
+.btn-jugar:hover {
+  background-color: var(--blue);
+  color: var(--green);
 }
 
-.nombre {
-  color: black;
-  margin-left: 330px;
+.question {
+  color:var(--yellow);
 }
-
-img {
+.question > div > img {
   width: 200px;
   height: 200px;
-  margin: 20px 400px;
 }
-.pregunta {
-  background-color: yellowgreen;
-  color: black;
-  margin-left: 450px;
-  width: 100px;
-  height: 30px;
-  padding: 8px;
+.question #pregunta {
+  font-size: 1.8rem;
+  padding: 0.5rem;
 }
-.opcion {
-  background-color: yellowgreen;
-  color: black;
-  margin: 20px 190px;
-  padding: 8px;
-  display: inline-block;
+
+[id*="opcion-"] {
+  border: 1px solid var(--yellow);
+  border-radius: 50px;
+  font-size: 1.2rem;
+  padding: 0.5rem;
 }
 
 .ranking {

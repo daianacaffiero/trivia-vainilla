@@ -8,14 +8,26 @@
     <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
-    <div id="contenedor">
-      <h1 class="trivia">Trivia Vainilla</h1>
-      <form id="info">
-        <input id="nombre" type="text" class="nombre2"></input>
-        <button id="btnJugar" class="jugar" type="submit">JUGAR</button>
-      </form>
+    <div class="contenedor">
+      <section class="flex-container flex-container-center flex-container-col">
+        <form id="info" class="jugador-form">
+          <div class="flex-item center">
+            <h1 class="trivia-titulo">Trivia Vainilla</h1>
+          </div>
+          <div class="flex-item center">
+            <label for="nombre">Ingrese su nombre para jugar</label>
+          </div>
+          <div class="flex-item center">
+            <input id="nombre" class="input-nombre" type="text" />
+          </div>
+          <div class="flex-item center">
+            <button id="btnJugar" class="btn-jugar" type="submit">Jugar</button>
+          </div>
+        </form>
+        </div>
+      </section>
     </div>
   </body>
 
-  <script src="./js/main.js"></script>
+  <script src="./js/index.js"></script>
 </html>

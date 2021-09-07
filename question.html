@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
-    <div class="contenedor">
-      <div class="section">
-        <img src="./img/quiz.png" />
-        <h2 class="pregunta">Pregunta</h2>
-        <h3 class="opcion">Opción 1</h3>
-        <h3 class="opcion">Opción 2</h3>
-        <h3 class="opcion">Opción 3</h3>
-        <h3 class="opcion">Opción 4</h3>
-      </div>
+    <header class="flex-container">
+      <div id="username" class="flex-item">Username</div>
+      <div class="flex-item"></div>
+      <div class="flex-item"></div>
+    </header>
+    <div class="flex-container flex-container-center contenedor">
+      <section class="flex-item question center">
+        <div class="col-12"><img class="pregunta-img" src="./img/quiz.png" /></div>
+        <div class="col-12"><div id="pregunta">Pregunta</div></div>
+        <div class="col-6"><div id="opcion-1">Opción 1</div></div>
+        <div class="col-6"><div id="opcion-2">Opción 2</div></div>
+        <div class="col-6"><div id="opcion-3">Opción 3</div></div>
+        <div class="col-6"><div id="opcion-4">Opción 4</div></div>
+      </section>
     </div>
   </body>
 
-  <script>
-    // Logueo por consola el nombre del jugador
-    // Solamente con fines de prueba, hasta mostrarlo correctamente
-    console.log(sessionStorage['nombre']);
-  </script>
+    <script src="./js/question.js"></script>
 </html>
